@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 // The uri string must be the connection string for the database (obtained on Atlas).
-const uri = "mongodb+srv://test:T134296@classmongodb.mlgyzqt.mongodb.net/?appName=ClassMongoDB";
+const uri = "mongodb+srv://user5:Allstar1255@classmongodb.mlgyzqt.mongodb.net/?appName=ClassMongoDB";
 // Make sure the package.json contains:
 //   "dependencies": {
 //    "express": "^4.18.2",
@@ -53,8 +53,8 @@ console.log("Looking for: " + searchKey);
 
 async function run() {
   try {
-    const database = client.db('ClassMongoDB');
-    const parts = database.collection('415-Integrated-Tech');
+    const database = client.db('cmps415');
+    const parts = database.collection('cmps415');
 
     // Hardwired Query for a part that has partID '12345'
     // const query = { partID: '12345' };
