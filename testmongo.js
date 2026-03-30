@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 // The uri string must be the connection string for the database (obtained on Atlas).
-const uri = "mongodb+srv://user5:Allstar1255@classmongodb.mlgyzqt.mongodb.net/?appName=ClassMongoDB";
+const uri = "mongodb+srv://user5:Allstar1255@classmongodb.mlgyzqt.mongodb.net/";
 // Make sure the package.json contains:
 //   "dependencies": {
 //    "express": "^4.18.2",
