@@ -54,7 +54,7 @@ console.log("Looking for: " + searchKey);
 async function run() {
   try {
     const database = client.db('ClassMongoDB');
-    const parts = database.collection('415-Project');
+    const parts = database.collection('415-Integrated-Tech');
 
     // Hardwired Query for a part that has partID '12345'
     // const query = { partID: '12345' };
